@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "open-sans", sans-serif;
+}
+
+body {
+
+    background-image: linear-gradient(to right, #2A8C82, #41BFB3, #9BF2EA, #275950);
+}
+
+.one {
+    margin: 30px auto; /*margin: Define o espaço externo do elemento, ou seja, a distância entre ele e outros elementos.*/
+    padding: 25px;  /*padding: Define o espaço interno do elemento, entre o conteúdo e a borda.*/
+    width: 700px;  /* width: Define a largura do elemento.*/
+    background-color: rgb(146, 175, 177);
+    box-shadow: 10px 10px 20px #260101;
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: justify;
+    text-align: center;
+
+
+}
+
+
+
+.h1one {
+
+    margin: auto;
+    padding: 30px;
+    background-image: linear-gradient(to right, #2A8C82, #41BFB3, #9BF2EA, #275950);
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(15, 15, 15);
+    font-size: 80px;
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.h1two {
+    margin: auto;
+    font-size:50px ;
+    padding: 20px;
+    box-shadow: #2A8C82, #41BFB3, #9BF2EA, #275950;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style:italic;
+}
+
+.two {
+    margin: 10px 10px 50px;
+    padding: 20px;
+    width: 700px;
+    background-color: #41BFB3;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: justify;
+    text-align: center;
+
+}
+
+.h1three {
+    margin: auto;
+    margin-left: 1790px;
+    margin-top: -788px;
+    padding: 20px;
+    box-shadow: #2A8C82, #41BFB3, #9BF2EA, #275950;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 50px;
+}
+
+.three {
+    margin: 0.5em ;
+    margin-left: 1780px ;
+    margin-top:  auto;
+    padding: 20px;
+    width: 700px;
+    background: #2A8C82;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+    text-align: justify;
+    font-size: 25px;
+}
