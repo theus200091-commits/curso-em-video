@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perzonalização de fundo</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0%;
+        }
+
+        div {
+            background-image: url(https://gustavoguanabara.github.io/html-css/imagens/mascote.png)
+        }
+
+        .img1 {
+            width: 100vw;
+            /* 100% da largura do viewport= caso eu queira alterar largura.*/
+            height: 100vh;
+            /* 100% da altura do viewport */
+            background-repeat: no-repeat;
+            /* Não repete o background na area */
+            background-size: 250px;
+            /* Aumenta a area do background */
+            background-position: 15px;
+            /* ajusta a posição do background */
+            background-color: bisque;
+            /* Muda a cor do background */
+        }
+
+
+        .img2 {
+            width: 100vw;
+            height: 100vh;
+             background-size: 102px;
+            background-repeat: repeat;
+            background-color: aquamarine;
+        }
+
+        .img3 {
+            width: 100vw;
+            height: 100vh;
+            background-repeat: repeat-x;
+            background-size: 77px;
+            /* repete o background só na horizontal(eixo x) */
+            background-color: burlywood;
+        }
+
+        .img4 {
+            width: 100vw;
+            height: 100vh;
+            background-size: 77px;
+             background-position: 100px;
+            background-repeat: repeat-y;
+            /* repete o background só na vertical(eixo y) */
+            background-color: rgb(49, 37, 23);
+        }
+
+        .img5 {
+            width: 100vw;
+            height: 100vh;
+            background-repeat:round;
+            /* redimensiona a img para caber dentro do espaço  */
+            background-color: rgb(251, 139, 10);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="img1"></div>
+    <div class="img2"></div>
+    <div class="img3"></div>
+    <div class="img4"></div>
+    <div class="img5"></div>
+</body>
+
+</html>
