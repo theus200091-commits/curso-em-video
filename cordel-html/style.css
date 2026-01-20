@@ -22,7 +22,8 @@
 
 }
 
-pre {color: rgb(0, 0, 0);
+pre {
+    color: rgb(0, 0, 0);
     font-family: var(--fonte3);
     font-size: 1em;
     line-height: 2em;
@@ -71,26 +72,26 @@ a:hover {
     text-decoration: underline;
 }
 
-.id1{
+.id1 {
     margin: 0px 0px 0px 20px;
     padding-top: 70px;
     padding-bottom: 15px;
-    
+
 }
 
 .id2 {
-    display:inline-block;  
-    margin-top:30px; 
+    display: inline-block;
+    margin-top: 30px;
     margin-bottom: 20px;
     margin-left: 20px;
-    padding-bottom:1vh;
+    padding-bottom: 1vh;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
     color: white;
-    
+
 }
 
 
@@ -98,16 +99,16 @@ a:hover {
     margin: 0px 0px 0px 20px;
     padding-top: 30px;
     padding-bottom: 15px;
-    
+
 }
 
 .id4 {
-   display:inline-block;  
-    margin-top:30px; 
+    display: inline-block;
+    margin-top: 30px;
     margin-bottom: 20px;
     margin-left: 20px;
     padding: 5px;
-    padding-bottom:1px;
+    padding-bottom: 1px;
     padding-left: 15px;
     padding-top: 15px;
     background-color: rgba(0, 0, 0, 0.514);
@@ -123,8 +124,8 @@ a:hover {
 
 .img2 {
     background-image: url(./imagens/background002.jpg);
-     background-position: right center;
-    background-attachment:fixed;
+    background-position: right center;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -132,10 +133,13 @@ a:hover {
 .img1 {
     background-image: url(./imagens/background001.jpg);
     background-position: right center;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-size: cover;
-    
+
 }
-footer{background-color: black;
-color: white;
-text-align: center;}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
