@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela c/ Cabeçalho</title>
+    <style>
+        body{display: grid;
+        place-items: center;
+    }
+        table {
+            width: 200px;
+            border: 2px solid black;
+            border-collapse: collapse;
+            background-color: rgb(243, 216, 10);
+        }
+
+        td {
+            width: 100px;
+            border: 2px solid black;
+            text-align: right; 
+            
+        }
+
+        th {
+            width: 100px;
+            border: 2px solid black;
+            text-align: center;
+            
+        }
+        thead{background-color: rgb(255, 0, 0);}
+        tfoot{background-color: rgb(255, 0, 0);}
+
+        .tdesquerdo {
+            text-align: left;
+            background-color:gray;
+            border: 2px solid black;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>TABELA COM CABEÇALHO</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class=tdesquerdo>Computador</td>
+                <td>3000R$</td>
+            </tr>
+            <tr>
+                <td class=tdesquerdo>Televisão</td>
+                <td>2500R$</td>
+            </tr>
+            <tr>
+                <td class=tdesquerdo>Celular</td>
+                <td>4000R$</td>
+            </tr>
+            <tr>
+                <td class=tdesquerdo>Notebook</td>
+                <td>7000R$</td>
+            </tr>
+            <tr>
+                <td class=tdesquerdo>Ventilador</td>
+                <td>200R$</td>
+            </tr>
+            <tr>
+                <td class=tdesquerdo>Microondas</td>
+                <td>500R$</td>
+            </tr>
+            <tr>
+                <td class=tdesquerdo>Impressora</td>
+                <td>4000R$</td>
+            </tr>
+            <tr>
+                <td class=tdesquerdo>Scanner</td>
+                <td>900R$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    Preços sugeridos
+
+                </td>
+            </tr>
+        </tfoot>
+
+
+
+</body>
+
+</html>

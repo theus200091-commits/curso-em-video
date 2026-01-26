@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+            font-style: italic;
+            background-color: aqua;
+            display: grid;
+            place-items: center;
+        }
+
+        h1 {
+            background-color: aliceblue;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .table1 {
+            font-weight: bolder;
+            width: 200px;
+            height: 10px;
+            border-collapse: collapse;
+            text-align: center;
+            background-color: rgb(213, 202, 202);
+
+        }
+
+        td {
+            border: 1.5px solid black;
+            padding: 10px;
+        }
+
+        .tdcolor {
+            background-color: yellow;
+        }
+
+
+        .tableex2 {
+            width: 200px;
+            height: 10px;
+            border-collapse: collapse;
+            text-align: center;
+            background-color: rgb(213, 202, 202);
+            margin-top: 10px;
+            font-weight: bolder;
+        }
+
+        .table3 {
+            margin-top: 10px;
+            width: 200px;
+            height: 10px;
+            border-collapse: collapse;
+            text-align: center;
+            background-color: rgb(213, 202, 202);
+            border: 2px solid black;
+
+        }
+
+
+        .trnum {
+            font-weight: bolder;
+        }
+
+        section {
+            display: grid;
+            place-items: center;
+            background-color: rgb(249, 157, 8);
+            height: 250px;
+            width: 300px;
+        }
+
+        .tabela2 {
+            margin-top: 10px;
+            display: grid;
+            place-items: center;
+            background-color: rgb(75, 4, 241);
+            height: 250px;
+            width: 300px;
+        }
+
+        .tabela3 {
+            margin-top: 10px;
+            display: grid;
+            place-items: center;
+            background-color: rgb(118, 43, 175);
+            height: 280px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Resolvendo desafios relacionados a tabela</h1>
+    <section>
+        <table class="table1" border="2">
+
+
+
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td class="tdcolor" colspan="" rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+
+                <td>7</td>
+            </tr>
+            <tr>
+                <td class="tdcolor" colspan="3">8</td>
+                <td>9</td>
+
+            </tr>
+            <tr>
+                <td class="tdcolor" colspan="" rowspan="2">10</td>
+                <td class="tdcolor" colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </table>
+    </section>
+    <section class="tabela2">
+        <table class="tableex2" border="2">
+            <tr>
+                <td colspan="4" class="tdcolor">A</td>
+                <td rowspan="4" class="tdcolor">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4" class="tdcolor">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="tdcolor">N</td>
+            </tr>
+        </table>
+    </section>
+    <section class="tabela3">
+        <table class="table3">
+            <tr class="trnum">
+                <td class="tdcolor">1</td>
+                <td class="tdcolor">2</td>
+                <td class="tdcolor">3</td>
+                <td class="tdcolor">4</td>
+                <td class="tdcolor">5</td>
+            </tr>
+            <tr>
+                <td colspan="3">A</td>
+                <td colspan="2">B</td>
+            </tr>
+            <tr>
+                <td colspan="5">C</td>
+            </tr>
+            <tr>
+                <td rowspan="3">D</td>
+                <td colspan="4">E</td>
+            </tr>
+            <tr>
+                <td rowspan="2">F</td>
+                <td colspan="3">G</td>
+            </tr>
+            <tr>
+                <td>H</td>
+                <td colspan="2">I</td>
+            </tr>
+        </table>
+    </section>
+</body>
+
+
+</html>
