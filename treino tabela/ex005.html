@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecionando coluna</title>
+<style>
+    table{border-collapse: collapse;
+        border: 1px solid black;}
+        th, td{border-collapse: collapse;
+        border: 1px solid black;
+        padding: 5px}
+        .cnome{background-color: rgb(0, 255, 4);
+        }
+        .cidade{background-color: red;}
+</style>
+</head>
+<body>
+    <h1>Usando a TAG  COLGROUP</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+    </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Lucas Paulo</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Luiza Souza</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Arquitéta</td>
+        </tr>
+        <tr>
+            <td>Ana Julia</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Concursada</td>
+        </tr>
+        <tr>
+            <td>Matheus Jorge</td>
+            <td>M</td>
+            <td>40</td>
+            <td>Esportista</td>
+        </tr>
+        <tr>
+            <td>Vitória</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Empresária</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
